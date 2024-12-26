@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+
+.navigasi {
+    background-color:#3b4997;
+    width: 80pc;
+    height: 70px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+}
+
+
+
+.logo {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30;
+}
+
+.menu {
+    margin-left: 800px;
+    padding-top: 27px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 45px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color:lightblue;
+    font-style: italic;
+}
+
+.banner {
+    background-color:#3b5999;
+    width: 80pc;
+    height: 600px;
+    text-align: center;
+    color: white;
+}
+
+.banner img {
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 150px;
+}
+
+.banner h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner button {
+    margin-top: 60px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+}
+
+.banner button:hover {
+    background-color: 3b5999;
+    border: 2px solid white;
+    color: white;
+}
+
+h1 span::before{
+    content: '';
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: lightblue;
+    font-size: 70px;
+}
+
+@keyframes gerak {
+    0% {
+content: 'Selamat Datang';
+    }
+    50% {
+        content: 'Saya Suladi. S.H.,M.Kn';
+    }
+    100% {
+        content: 'Terimakasih Sudah singgah';
+    }
+}
+
+.box-jasa {
+    text-align: center;
+    color: black;
+    margin-top: 0px;
+    width: 80pc;
+}
+
+.box-1 img{
+    height: 150px;
+    margin-top: 20px;
+}
+.box-2 img{
+    height: 150px;
+    margin-top: 20px;
+}
+.box-3 img{
+    height: 150px;
+    margin-top: 20px;
+}
+.box-4 img{
+    height: 150px;
+    margin-top: 20px;
+}
+
+.box-1 {
+    width: 260px;
+    height: 320px;
+    background-color: #f0f0f0;
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-right: 7px;
+    margin: 70px 20px 20px 70px;
+    border-radius: 10px;
+    float: left;
+}
+.box-2,.box-3,.box-4 {
+    width: 260px;
+    height: 320px;
+    background-color: #f0f0f0;
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-right: 7px;
+    margin: 70px 20px 20px 0px;
+    border-radius: 10px;
+    float: left;
+}
+
+.box-1:hover,.box-2:hover,.box-3:hover,.box-4:hover  {
+    background-color: #3b5999;
+    color: white;
+}
+
+.box-jasa h3, p{
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding-top: 0px 20px;
+}
+
+.box-jasa a {
+    text-decoration:dotted
+}
+
+.box-kami {
+    background-color:rgb(234, 234, 234);
+    width: 80pc;
+    height: 600px;
+    color: rgb(0, 0, 0);
+    margin: 490px auto 0px;
+}
+
+.box-kami h1{
+    text-align: center;
+}
+
+.box-kami p {
+    margin: 2% 80px 0px 80px;
+
+}
+
+.box-kami li {
+    margin: 1% 60px 5px 100px;
+}
+
+
+
+.box-kontak img{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin: right;
+}
+
+.box-kontak h1 {
+    text-align: center;
+    color: black;
+    width: 80pc;
+    margin: 10px auto 0px;;
+}
+
+.box-kontak li {
+font-weight: bold;
+    color: #3b5999;
+    width: 80pc;
+    /* margin: 50px; */
+    margin-top: 15px;
+    margin-left: 85;
+}
+
+.box-kontak h3 {
+    font-size: 30;
+    font-weight: bold;
+    color: #000000;
+    width: 80pc;
+    /* margin: 50px; */
+    margin-top: 15px;
+    margin-left: 85;
+}
+
+.box-kontak iframe  {
+    margin-top: 15px;
+    margin-left: 85;
+}
+
+.footer {
+    background-color: #0078d4;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+/* .footer {
+    width: 80pc;
+    height: 40px;
+    background-color: gray;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    align-items: center;
+    padding-top: 1px;
+    padding-right: px;
+    margin: 20px 20px 20px -2px;
+} */
+
+
+
+
+
+/* PROFILLLL */
+.profil {
+    background-color:rgb(0, 48, 120);
+    width: 80pc;
+    height: 55px;
+
+    color: rgb(255, 255, 255);
+    margin: 0px auto 0px;
+    position: fixed;
+}
+
+.profil h1{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.box-profil {
+    text-align: center;
+    color: black;
+    margin-top: 0px;
+        width: 80pc;
+}
+
+.box-atas1 {
+    width: 90px;
+    height: 40px;
+    background-color: #545454;
+    text-align: center;
+    color: white;
+    align-items: center;
+    padding-top: 9px;
+    padding-right: 7px;
+    margin: 100px 0px 20px 90px;
+    border-radius: 10px;
+    float: left;
+}
+.box-atas2 {
+    width: 1000px;
+    height: 40px;
+    background-color: #545454;
+    text-align: center;
+    color: white;
+    align-items: center;
+    padding-top: 9px;
+    padding-right: 7px;
+    margin: 100px 20px 20px -2px;
+    border-radius: 10px;
+    float: left;
+}
+.box-p1 {
+    width: 100px;
+    height: 40px;
+    background-color: #e3e3e3;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    padding-top: 1px;
+    padding-right: 7px;
+    margin: -18px 0px 20px 90px;
+    float: left;
+}
+.box-p2 {
+    width: 300px;
+    height: 40px;
+    background-color: #e3e3e3;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-style: bold;
+    align-items: center;
+    padding-top: 1px;
+    padding-right: 7px;
+    margin: -18px 20px 20px 0px;
+    float: left;
+}
+.box-p3 {
+    width: 680px;
+    height: 40px;
+    background-color: #e3e3e3;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-style: bold;
+    align-items: center;
+    padding-top: 1px;
+    padding-right: 7px;
+    margin: -18px 20px 20px -20px;
+    float: left;
+}
+.box-profil button {
+    margin-top: px;
+    padding: 10px;
+    width: 120px;
+    border-radius: 50px;
+    border-color:rgb(0, 48, 120);
+    /* border: none; */
+}
+.box-profil button:hover {
+    background-color:rgb(0, 48, 120);
+    /* border: 2px solid rgb(0, 120, 78); */
+    color: rgb(255, 255, 255);
+}
+
+
+
+@media (min-width: 768px) {
+    .navigasi {
+        text-align: left;
+
+    }
+    .banner {}
+    .box-jasa{}
+    .box-kami{}
+    .box-kontak{}
+    .footer{}
+
+}
+
+/* Extra Large Screens (ukuran layar lebih dari 1200px) */
+@media (min-width: 1200px) {
+    .navigasi {
+    }
+    .banner {}
+    .box-jasa{}
+    .box-kami{}
+    .box-kontak{}
+}
